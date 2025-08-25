@@ -1,0 +1,15 @@
+git config --global user.name anglusa
+git config --global user.email otavio.baroni@etec.sp.gov.br
+
+-- Criar o projeto
+npx create-expo-app@latest viotaDelivery
+
+-- Limpando o template
+cd viotaDelivery
+npm run reset-project           pressionar n
+
+-- Criar uma pasta constants
+-- Criar um arquivo Colors.tsx na pasta constants
+
+-- Criar uma pasta components
+-- Criar um arquivo CustomHeader.tsx e executar rnfs
