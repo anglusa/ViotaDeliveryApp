@@ -3,8 +3,9 @@ import { Text, View } from "react-native";
 export default function Index() {
   return (
     <View
-      style={{
+      style={{  
         flex: 1,
+        marginTop: 60,
         justifyContent: "center",
         alignItems: "center",
       }}
