@@ -12,7 +12,7 @@ const SearchBar = () =>
             <Ionicons style={styles.searchIcon} name="search" size={25} color={Colors.medium} />
             <TextInput style={styles.input} placeholder='Restaurante, lanchonetes, pratos' />
         </View>
-        <Link href={'/'} asChild>
+        <Link href={'/(modal)/filter'} asChild>
             <TouchableOpacity style={styles.optionButton}>
                 <Ionicons name="options-outline" size={25} color={Colors.primary} />
             </TouchableOpacity>
